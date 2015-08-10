@@ -5,26 +5,38 @@ Not sure
 **  Output: beowulf
 /////////////////////////////////////
 
-1) Capitalize the first letter of each word of a multiple word string
+1) Capitalize a single letter
+  Input: a
+  Output: A
+
+2) Capitalize first letter of one word
+  Input: beowulf
+  Output: Beowulf
+
+3) Capitalize the first letter of each word of a multiple word string
   Input: beowulf begins
   Output: Beowulf Begins
 
-2) Do not capitalize designated words (and, the, if, etc.)
-  Input: beowulf from brighton beach
-  Output: Beowulf from Brighton Beach
+4) Do not capitalize designated words (and, the, if, etc.)
+  Input: beowulf and brighton beach
+  Output: Beowulf and Brighton Beach
 
-3) Capitalize those designated words if they are the first word
-  Input: from beowulf to the hulk
-  Output: From Beowulf to the Hulk
+5) Capitalize those designated words if they are the first word
+  Input: the beowulf and the hulk
+  Output: The Beowulf and the Hulk
 
-4) Ignore non-alpha characters
+6) Capitalize designated words if they are the last word
+  Input: what is it all for?
+  Output: What Is It All For?
+
+7) Ignore non-alpha characters
   Input: $500 dollars
   Output: $500 Dollars
 
-5) Deal with words with letters that should be capitalized after first letter
+8) Deal with words with letters that should be capitalized after first letter
   Input: homer simpson loves mcduff beer
   Output: Homer Simpson Loves McDuff Beer
 
-6) Deal with words that should be all uppercase (like acronyms)
+9) Deal with words that should be all uppercase (like acronyms)
   Input: I loooove PHP
   Output: I Loooove PHP
