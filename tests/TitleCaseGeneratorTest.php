@@ -76,7 +76,7 @@
       $result = $test_TitleCaseGenerator->makeTitleCase($input);
 
       //Assert
-      $this->assertEquals("What is it all For?", $result);
+      $this->assertEquals("What Is It All For?", $result);
     }
     //Spec 7
     function test_makeTitleCase_nonAlpha()
