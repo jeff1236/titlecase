@@ -12,7 +12,7 @@ class TitleCaseGenerator
     $number_of_words = count($word_array);
     //var_dump($number_of_words);
 
-    $non_caps = array("a", "an", "The", "to", "at", "in", "with", "And", "but", "for", "or", "nor");
+    $non_caps = array("A", "An", "The", "To", "At", "In", "With", "And", "But", "For", "Or", "Nor");
     $finished_title = array();
     $counter = 0;
     foreach($word_array as $word) {
